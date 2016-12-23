@@ -1,0 +1,132 @@
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+	margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.top-wrapper {
+  padding: 200px 0 100px 0;
+  background-image: url(../img/isshiki2.jpg);
+  background-size: cover;
+  color: black;
+  text-align: left;
+  height: 100vh;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper p{
+	font-size: 15px;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  top: 0;
+}
+
+.header-title{
+  float: left;
+  width: 30%;
+  line-height: 65px;
+  padding-left: 10px;
+}
+
+.nav{
+  width: 70%;
+  float: left;
+  padding-left: 30px;
+}
+
+.li{
+  float: left;
+  width: 33%;
+  text-align: center;
+  list-style: none;
+  line-height: 65px;
+}
+
+.title{
+  text-align: center;
+  margin: 40px auto 0;
+  font-size: 40px;
+
+}
+
+.resto{
+  width: 40%;
+  float: left;
+}
+
+.img{
+   width: 390px;
+   position: relative;
+   margin: 95px 170px 0;
+}
+
+.txt-contents{
+  text-align: left;
+  width: 390px;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  margin: 10px 170px 0;
+}
+
+.footer{
+	height: 40px;
+	width: 100%;
+}
+
+.page-footer-left{
+  clear: left;
+}
+
+.page-footer-left li{
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  width: 160px;
+  margin-left: 5px;
+  line-height: 40px;
+  
+}
+
+
+.page-footer-copy{
+  line-height: 40px;
+}
+
+
+
+
+
+
+
+
+

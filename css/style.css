@@ -1,0 +1,168 @@
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+	margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.top-wrapper {
+  padding: 200px 0 100px 0;
+  background-image: url(../img/top1.jpg);
+  background-size: cover;
+  color: black;
+  text-align: left;
+  height: 100vh;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper p{
+	font-size: 19px;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 130px;
+}
+
+
+.header {
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  top: 0;
+}
+
+.header-title{
+  float: left;
+  width: 30%;
+  line-height: 65px;
+  padding-left: 10px;
+  color: black;
+}
+
+.nav{
+  width: 70%;
+  float: left;
+  padding-left: 100px;
+}
+
+.li{
+  float: left;
+  width: 33%;
+  text-align: center;
+  list-style: none;
+  line-height: 65px;
+}
+
+.eat-wrapper{
+	height: 500px;
+	padding: 180px 0 100px 0;
+  background-image: url(../img/cafetop.png);
+  background-size: cover;
+  color: black;
+}
+
+.eat-wrapper h2{
+	font-size: 35px;
+	text-align: center;
+	padding-top: -50px;
+}
+
+.eat-wrapper p{
+	font-size: 18px;
+  text-align: center;
+}
+
+.resto-wrapper{
+  position: relative;
+	height: 100px;
+	padding: 180px 0 100px 0;
+  background-color: white;
+  color: black;
+}
+
+
+.icons{
+}
+
+.icon{
+  float: left;
+  list-style-type: none;
+  padding-left: 100px;
+  margin-top: -150px;
+}
+
+
+.zushi-wrapper{
+  height: 600px;
+  padding: 180px 0 100px 0;
+  background-image: url(../img/zushitry1top.png);
+  background-size: cover;
+}
+
+.zushi-wrapper h2{
+	font-size: 35px;
+	text-align: center;
+	padding-top: 40px;
+  color: black;
+}
+.zushi-wrapper p{
+	font-size: 18px;
+  color: white;
+  text-align: center;
+  color: black;
+}
+
+.btn{
+  padding-left: 250px;
+}
+
+.footer{
+	height: 40px;
+	width: 100%;
+}
+
+.page-footer-left li{
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  width: 160px;
+  margin-left: 5px;
+  line-height: 40px;
+  
+}
+
+
+.page-footer-copy{
+  line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
